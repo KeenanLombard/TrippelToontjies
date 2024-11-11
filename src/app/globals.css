@@ -14,8 +14,11 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.image {
+  background: url("https://img.huffingtonpost.com/asset/5d7ba124240000c92b796bc0.jpeg?cache=Xl6NBTL1gy&ops=1778_1000")
+    no-repeat;
+}
+
+.purple {
+  background-color: #9d04ff;
 }
