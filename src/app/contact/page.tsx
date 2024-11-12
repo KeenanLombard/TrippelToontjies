@@ -1,8 +1,10 @@
 import React from "react";
+import WaitingList from "../components/WaitingList";
 
 function page() {
   return (
     <section className='bg-white py-12 px-6 md:px-12 lg:px-24 text-gray-800'>
+      <WaitingList />
       <div className='max-w-4xl mx-auto'>
         <h2 className='text-3xl font-extrabold text-center text-blue-700 mb-8'>
           Contact Us
