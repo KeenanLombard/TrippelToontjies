@@ -46,6 +46,13 @@ const Navbar: React.FC = () => {
         </li>
         <li>
           <Link
+            href='/team'
+            className='text-sm text-gray-400 hover:text-gray-500'>
+            Team
+          </Link>
+        </li>
+        <li>
+          <Link
             href='/media'
             className='text-sm text-gray-400 hover:text-gray-500'>
             Media
@@ -100,6 +107,14 @@ const Navbar: React.FC = () => {
                 onClick={toggleMenu}
                 className='text-sm text-gray-700 hover:text-blue-600'>
                 About Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                href='/team'
+                onClick={toggleMenu}
+                className='text-sm text-gray-700 hover:text-blue-600'>
+                Team
               </Link>
             </li>
             <li>

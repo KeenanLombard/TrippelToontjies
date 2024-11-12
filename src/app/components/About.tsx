@@ -2,47 +2,61 @@ import React from "react";
 
 function About() {
   return (
-    <section className='py-20 px-6 md:px-12 lg:px-24 bg-[#9d04ff] text-white text-center'>
-      <div className='max-w-4xl mx-auto'>
-        {/* Heading */}
-        <h2 className='text-4xl font-extrabold mb-4 text-[#ffdc60]'>
-          About Me
+    <section className='bg-blue-50 py-12 px-6 md:px-12 lg:px-24 text-gray-800'>
+      <div className='max-w-5xl mx-auto'>
+        <h2 className='text-3xl font-extrabold text-center text-blue-700 mb-8'>
+          About Us
         </h2>
 
-        {/* Subtitle */}
-        <p className='text-lg font-medium mb-8 text-[#ffb3ec]'>
-          Passionate developer, creative problem solver, and avid learner.
+        <p className='text-lg text-center mb-10'>
+          At [Creche Name], we are dedicated to creating a nurturing and
+          inspiring environment where children can explore, learn, and grow. We
+          believe that every child deserves a space where they feel loved, safe,
+          and encouraged to express themselves.
         </p>
 
-        {/* Content */}
-        <p className='text-base mb-6 leading-relaxed text-[#ffebf4]'>
-          Hi! I'm a developer with a background in Software Engineering, fueled
-          by curiosity and a love for technology. I have experience working with
-          various web development tools, frameworks, and languages. My goal is
-          to create meaningful, user-centric applications that enhance user
-          experience and solve real-world problems.
+        <div className='grid gap-8 md:grid-cols-2 lg:grid-cols-3'>
+          <div className='bg-white shadow-lg rounded-lg p-6'>
+            <h3 className='text-2xl font-semibold text-blue-600 mb-4'>
+              Our Curriculum
+            </h3>
+            <p>
+              Our curriculum is designed to engage young minds with fun,
+              hands-on activities. From sensory play and arts to early reading
+              and numbers, we focus on holistic learning that builds curiosity
+              and confidence.
+            </p>
+          </div>
+
+          <div className='bg-white shadow-lg rounded-lg p-6'>
+            <h3 className='text-2xl font-semibold text-blue-600 mb-4'>
+              What We Do
+            </h3>
+            <p>
+              We create a daily schedule full of joyful moments and learning
+              adventures. Through guided activities and free play, we encourage
+              creativity, teamwork, and independence in each child.
+            </p>
+          </div>
+
+          <div className='bg-white shadow-lg rounded-lg p-6'>
+            <h3 className='text-2xl font-semibold text-blue-600 mb-4'>
+              Our Values
+            </h3>
+            <p>
+              Kindness, respect, and growth are at the heart of everything we
+              do. We foster an environment where children learn empathy, respect
+              for diversity, and a love for learning that will stay with them
+              for life.
+            </p>
+          </div>
+        </div>
+
+        <p className='text-lg text-center mt-10'>
+          Our creche is a home away from home, where each child’s unique
+          personality is celebrated and nurtured. Join us to create a joyful
+          journey for your child.
         </p>
-
-        {/* Fun Fact Section */}
-        <div className='mt-8 p-6 bg-white/20 rounded-lg text-white shadow-lg'>
-          <h3 className='text-2xl font-semibold text-[#ffb3ec] mb-2'>
-            Fun Facts
-          </h3>
-          <ul className='space-y-2 text-sm leading-relaxed text-[#ffe6ff]'>
-            <li>🚗 I’m passionate about cars and bikes.</li>
-            <li>💪 Fitness is a big part of my life.</li>
-            <li>🎮 Gaming is my go-to hobby for relaxation.</li>
-          </ul>
-        </div>
-
-        {/* Call to Action */}
-        <div className='mt-10'>
-          <a
-            href='#contact'
-            className='inline-block px-8 py-3 rounded-full text-lg font-semibold bg-[#ffdc60] text-[#9d04ff] hover:bg-[#ffeb99] transition duration-300'>
-            Let's Connect!
-          </a>
-        </div>
       </div>
     </section>
   );
