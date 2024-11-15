@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className='bg-blue-50 py-12 px-6 md:px-12 lg:px-24 text-gray-800'>
+    <section className=' py-12 px-6 md:px-12 lg:px-24 text-gray-800'>
       <div className='max-w-5xl mx-auto'>
         <h2 className='text-3xl font-extrabold text-center text-blue-700 mb-8'>
           About Us
@@ -16,7 +16,7 @@ function About() {
         </p>
 
         <div className='grid gap-8 md:grid-cols-2 lg:grid-cols-3'>
-          <div className='bg-white shadow-lg rounded-lg p-6'>
+          <div className='bg-blue-50 cursor-pointer hover:bg-blue-100 mt-10 shadow-lg rounded-lg p-6 text-center hover:-translate-y-2 duration-300 relative'>
             <h3 className='text-2xl font-semibold text-blue-600 mb-4'>
               Our Curriculum
             </h3>
@@ -28,7 +28,7 @@ function About() {
             </p>
           </div>
 
-          <div className='bg-white shadow-lg rounded-lg p-6'>
+          <div className='bg-blue-50 cursor-pointer hover:bg-blue-100 mt-10 shadow-lg rounded-lg p-6 text-center hover:-translate-y-2 duration-300 relative'>
             <h3 className='text-2xl font-semibold text-blue-600 mb-4'>
               What We Do
             </h3>
@@ -39,7 +39,7 @@ function About() {
             </p>
           </div>
 
-          <div className='bg-white shadow-lg rounded-lg p-6'>
+          <div className='bg-blue-50 cursor-pointer hover:bg-blue-100 mt-10 shadow-lg rounded-lg p-6 text-center hover:-translate-y-2 duration-300 relative'>
             <h3 className='text-2xl font-semibold text-blue-600 mb-4'>
               Our Values
             </h3>

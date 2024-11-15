@@ -53,9 +53,9 @@ const Navbar: React.FC = () => {
         </li>
         <li>
           <Link
-            href='/media'
+            href='/events'
             className='text-sm text-gray-400 hover:text-gray-500'>
-            Media
+            Events
           </Link>
         </li>
         <li>
@@ -119,10 +119,10 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <Link
-                href='/media'
+                href='/events'
                 onClick={toggleMenu}
                 className='text-sm text-gray-700 hover:text-blue-600'>
-                Media
+                Events
               </Link>
             </li>
             <li>
