@@ -40,7 +40,9 @@ const Navbar: React.FC = () => {
           </Link>
         </li>
         <li>
-          <Link href='/about' className='text-sm text-blue-600 font-bold'>
+          <Link
+            href='/about'
+            className='text-sm text-gray-400 hover:text-gray-500'>
             About Us
           </Link>
         </li>
@@ -92,12 +94,12 @@ const Navbar: React.FC = () => {
             </button>
           </div>
 
-          <ul className='space-y-4'>
+          <ul className='space-y-10'>
             <li>
               <Link
                 href='/'
                 onClick={toggleMenu}
-                className='text-sm text-gray-700 hover:text-blue-600'>
+                className='text-xl text-gray-700 hover:text-blue-600'>
                 Home
               </Link>
             </li>
@@ -105,7 +107,7 @@ const Navbar: React.FC = () => {
               <Link
                 href='/about'
                 onClick={toggleMenu}
-                className='text-sm text-gray-700 hover:text-blue-600'>
+                className='text-xl text-gray-700 hover:text-blue-600'>
                 About Us
               </Link>
             </li>
@@ -113,7 +115,7 @@ const Navbar: React.FC = () => {
               <Link
                 href='/team'
                 onClick={toggleMenu}
-                className='text-sm text-gray-700 hover:text-blue-600'>
+                className='text-xl text-gray-700 hover:text-blue-600'>
                 Team
               </Link>
             </li>
@@ -121,7 +123,7 @@ const Navbar: React.FC = () => {
               <Link
                 href='/events'
                 onClick={toggleMenu}
-                className='text-sm text-gray-700 hover:text-blue-600'>
+                className='text-xl text-gray-700 hover:text-blue-600'>
                 Events
               </Link>
             </li>
@@ -129,7 +131,7 @@ const Navbar: React.FC = () => {
               <Link
                 href='/contact'
                 onClick={toggleMenu}
-                className='text-sm text-gray-700 hover:text-blue-600'>
+                className='text-xl text-gray-700 hover:text-blue-600'>
                 Contact
               </Link>
             </li>

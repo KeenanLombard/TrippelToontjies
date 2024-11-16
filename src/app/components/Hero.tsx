@@ -1,10 +1,11 @@
 import React from "react";
+import Link from "next/link";
 
 function Hero() {
   return (
     <div className='relative min-h-screen overflow-hidden bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 flex items-center justify-center'>
       {/* Animated Gradient Background */}
-      <div className='absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 animate-gradient-flow'></div>
+      <div className='absolute inset-0 bg-gradient-to-t from-blue-500 via-purple-700 to-pink-500 animate-gradient-flow'></div>
 
       {/* Pulsating Circles */}
       <div className='absolute w-64 h-64 bg-white opacity-20 rounded-full animate-pulse-slow top-1/4 left-1/3'></div>
@@ -14,18 +15,22 @@ function Hero() {
       {/* Hero Content */}
       <div className='relative z-10 text-center px-6'>
         <h1 className='text-5xl md:text-6xl font-bold text-white mb-4'>
-          Welcome to the Future
+          Trippel Toontjies
         </h1>
         <p className='text-lg md:text-xl text-white opacity-90 mb-8'>
-          Experience the elegance of motion and design. Start your journey now!
+          "Trap diep spoortjies"
         </p>
         <div className='flex justify-center space-x-4'>
-          <button className='px-6 py-3 bg-white text-purple-600 font-semibold rounded-lg shadow-lg hover:bg-purple-100'>
-            Get Started
-          </button>
-          <button className='px-6 py-3 bg-purple-700 text-white font-semibold rounded-lg shadow-lg hover:bg-purple-800'>
-            Learn More
-          </button>
+          <Link
+            href='/contact'
+            className='px-6 py-3 bg-white text-purple-600 font-semibold rounded-lg shadow-lg hover:bg-purple-100'>
+            Kontak ons
+          </Link>
+          <Link
+            href='/team'
+            className='px-6 py-3 bg-purple-700 text-white font-semibold rounded-lg shadow-lg hover:bg-purple-800'>
+            Lees meer
+          </Link>
         </div>
       </div>
     </div>

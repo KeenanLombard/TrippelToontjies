@@ -15,8 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className=''>
-        <Navbar />
+      <body>
+        <header className='sticky top-0 z-50'>
+          <Navbar />
+        </header>
         {children}
         <Footer />
       </body>
