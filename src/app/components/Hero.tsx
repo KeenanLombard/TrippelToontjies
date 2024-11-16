@@ -18,7 +18,7 @@ function Hero() {
           Trippel Toontjies
         </h1>
         <p className='text-lg md:text-xl text-white opacity-90 mb-8'>
-          "Trap diep spoortjies"
+          Trap diep spoortjies
         </p>
         <div className='flex justify-center space-x-4'>
           <Link
